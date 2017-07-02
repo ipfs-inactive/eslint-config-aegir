@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`eslint-config-aegir basic export 1`] = `
+Object {
+  "extends": "standard",
+  "globals": Object {
+    "self": true,
+  },
+  "parserOptions": Object {
+    "sourceType": "script",
+  },
+  "rules": Object {
+    "block-scoped-var": 2,
+    "complexity": 1,
+    "curly": "error",
+    "default-case": 2,
+    "dot-notation": 1,
+    "guard-for-in": 1,
+    "linebreak-style": Array [
+      1,
+      "unix",
+    ],
+    "max-depth": Array [
+      2,
+      4,
+    ],
+    "max-nested-callbacks": Array [
+      2,
+      4,
+    ],
+    "no-alert": 2,
+    "no-case-declarations": 2,
+    "no-console": 1,
+    "no-constant-condition": 2,
+    "no-continue": 1,
+    "no-div-regex": 2,
+    "no-empty": 1,
+    "no-empty-pattern": 2,
+    "no-extra-semi": 2,
+    "no-implicit-coercion": 2,
+    "no-labels": 2,
+    "no-loop-func": 2,
+    "no-nested-ternary": 1,
+    "no-script-url": 2,
+    "no-warning-comments": 1,
+    "quote-props": Array [
+      2,
+      "as-needed",
+    ],
+    "require-yield": 2,
+    "strict": Array [
+      2,
+      "safe",
+    ],
+    "valid-jsdoc": Array [
+      2,
+      Object {
+        "requireParamDescription": false,
+        "requireReturnDescription": false,
+      },
+    ],
+  },
+}
+`;

@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-aegir",
+  "version": "1.0.0",
+  "description": "Eslint Shareable Config used in Aegir",
+  "main": "index.js",
+  "repository": "https://github.com/ipfs/eslint-config-aegir",
+  "bugs": {
+    "url": "https://github.com/ipfs/eslint-config-aegir/issues"
+  },
+  "author": "Friedel Ziegelmayer <dignifiedquire@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "dev": "jest --watch"
+  },
+  "peerDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^20.0.4"
+  }
+}
