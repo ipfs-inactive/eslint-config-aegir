@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-aegir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint Shareable Config used in Aegir",
   "main": "index.js",
   "repository": "https://github.com/ipfs/eslint-config-aegir",
