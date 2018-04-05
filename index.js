@@ -1,15 +1,19 @@
 'use strict'
 
 module.exports = {
-  extends: 'standard',
-  parserOptions: {
-    sourceType: 'script'
-  },
+  extends: [
+    'standard',
+    'plugin:flowtype/recommended'
+  ],
+  parser: 'babel-eslint',
+  plugins: [
+    'flowtype'
+  ],
   globals: {
     self: true
   },
   rules: {
-    strict: [2, 'safe'],
+    strict: ['warn', 'safe'],
     curly: 'error',
     'block-scoped-var': 2,
     complexity: 1,

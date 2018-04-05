@@ -18,7 +18,9 @@
     "eslint": "^4.1.1"
   },
   "dependencies": {
+    "babel-eslint": "^8.2.2",
     "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-flowtype": "^2.46.1",
     "eslint-plugin-import": "^2.6.1",
     "eslint-plugin-node": "^5.1.0",
     "eslint-plugin-promise": "^3.5.0",
