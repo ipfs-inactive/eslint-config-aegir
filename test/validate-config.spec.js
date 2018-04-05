@@ -1,4 +1,5 @@
 /* eslint-env jest */
+'use strict'
 
 const eslint = require('eslint')
 const config = require('../')
