@@ -35,6 +35,9 @@ module.exports = {
     'no-loop-func': 2,
     'no-nested-ternary': 1,
     'no-script-url': 2,
+    // Disable this standardjs rule as it conflicts with flow not able
+    // to have numeric literals: https://github.com/facebook/flow/issues/380
+    'no-useless-computed-key': 0,
     'no-warning-comments': 1,
     'quote-props': [2, 'as-needed'],
     'require-yield': 2,
